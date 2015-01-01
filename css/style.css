@@ -1,56 +1,75 @@
 body {
-  background: #FF0000;
-  
+    background: #FF0000;
+
+}
+
+.blockback {
+    text-align: center;
+    background: #FF0000;
+    border: #FF0000 solid 0;
+    margin: 0;
+}
+
+.blockback:before {
+    content: '';
+    display: inline-block;
+    height: 100%; 
+    vertical-align: middle;
+    margin-right: -0.25em; /* Adjusts for spacing */
+
+    /* For visualization 
+    background: #808080; width: 5px;
+    */
 }
 
 .block {
-  text-align: center;
-  background: #FF0000;
-  border: #FF0000 solid 0;
-  margin: 0;
+    text-align: center;
+    background: #FF0000;
+    border: #FF0000 solid 0;
+    margin: 0;
 }
- 
+
 .block:before {
-  content: '';
-  display: inline-block;
-  height: 100%; 
-  vertical-align: middle;
-  margin-right: -0.25em; /* Adjusts for spacing */
-    
-  /* For visualization 
-  background: #808080; width: 5px;
-  */
- }
- 
+    content: '';
+    display: inline-block;
+    height: 100%; 
+    vertical-align: middle;
+    margin-right: -0.25em; /* Adjusts for spacing */
+
+    /* For visualization 
+    background: #808080; width: 5px;
+    */
+}
+
 .centered {
-  display: inline-block;
-  vertical-align: middle;
-  width: 75%;
-  /*padding: 10px 10px;
-  border: #FF0000 solid 0px;*/
-  background: #FF0000;
- }
+    display: inline-block;
+    vertical-align: middle;
+    width: 85%;
+    /*padding: 10px 10px;
+    border: #FF0000 solid 0px;*/
+    background: #FF0000;
+}
 
 a#codepen { 
-  display: block; 
-  text-decoration: none; 
-  color: #fff;  
-  margin: 0 auto;
-  border-radius: 5px; 
-  padding: 2rem;
-  padding-left: 1rem;
-  font-size: 1.5rem;
-  width: 75%;
-  border: 1px solid transparent;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/codepen-fill-white.svg) #000 no-repeat;
-  background-size: 80% 80%;
-  background-position: -150% 50%;
+    display: block; 
+    text-decoration: none; 
+    color: #fff;  
+    margin: 0 auto;
+    border-radius: 5px; 
+    padding: 2rem;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    width: 85%;
+    border: 1px solid transparent;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/codepen-fill-white.svg) #000 no-repeat;
+    background-size: 80% 80%;
+    background-position: -200% 50%;
 }
 a#codepen:hover, a#codepen:hover {
-  background-color: #fff;
-  color: #000;
-  background-blend-mode: difference;
-  border: 1px solid #fff;
+    background-color: #fff;
+    color: #000;
+    background-blend-mode: difference;
+    border: 1px solid #fff;
 }
 
 a#blogpost { 
@@ -61,14 +80,35 @@ a#blogpost {
     border-radius: 5px; 
     padding: 2rem;
     padding-left: 1rem;
-    font-size: 1.5rem;
-    width: 75%;
+    font-size: 1.3rem;
+    width: 85%;
     border: 1px solid transparent;
     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/codepen-fill-white.svg) #000 no-repeat;
     background-size: 80% 80%;
-    background-position: -150% 50%;
+    background-position: -200% 50%;
 }
 a#blogpost:hover, a#blogpost:hover {
+    background-color: #fff;
+    color: #000;
+    background-blend-mode: difference;
+    border: 1px solid #fff;
+}
+a#gitrepo { 
+    display: block; 
+    text-decoration: none; 
+    color: #fff;  
+    margin: 0 auto;
+    border-radius: 5px; 
+    padding: 2rem;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    width: 85%;
+    border: 1px solid transparent;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/73058/github500-002-01.svg) #000 no-repeat;
+    background-size: 80% 80%;
+    background-position: -200% 50%;
+}
+a#gitrepo:hover, a#gitrepo:hover {
     background-color: #fff;
     color: #000;
     background-blend-mode: difference;
